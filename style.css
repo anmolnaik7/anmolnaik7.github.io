@@ -1,44 +1,83 @@
 
 body{
-    background-color: #100051;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-nav{
-    background: rgba(250,250,250,0.2);
-}
-nav .logo {
     
-    margin-left: 30px;
-    
-  }
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: #100051;
   
-  nav .logo a {
-    font-size: 28px;
-    line-height: 80px;
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-    letter-spacing: 0.5px;
-    font-weight: bold;
-  }
-  nav div{
-      float: left;
-  }
-  nav .logo em {
-    font-style: normal;
-    font-weight: 200;
-  }
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  list-style: none;
+ 
+}
+
+.header a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  text-decoration: none;
+  font-size: 2vh;
+  line-height: 5vh;
+  border-radius: 4px;
+  margin-right: 3vw;
+  text-transform: uppercase;
+
+}
 
 
-.menu{
-    list-style-type: none;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    }
-.menu li{
-    display: inline-block;
-    }
-.menu li a{
-    text-decoration: none;
-    }
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.header a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.header a .active {
+  background-color: rgb(57, 119, 16);
+  color: white;
+}
+
+.menu {
+  float: right;
+  display:flex;
+  list-style: none;
+}
+
+.headerimg{
+  position: relative;
+  height: auto;
+ 
+  width: 100%;
+  height: 100%;
+  top: -40;
+
+}
+.headerimg img, .overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  height: auto;
+  max-width: 100%;
+
+}
+.overlay{
+  background-color: rgb(0, 0, 0, 0.5);
+  z-index: 3;
+}
   
