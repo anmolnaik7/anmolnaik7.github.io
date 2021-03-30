@@ -68,20 +68,16 @@ header{
 }
 
 .headerbtn:hover{
-  background-color: beige;
+  background-color: #FD297A;
+  box-shadow: 0px 2px 4px 2px #00000043;
+  
+}
+.headerbtn a:hover{
+  color: #9424F0;
+
 }
 /*--Header menu end--*/
 
-.headerimg{
-  padding: 0%;
-  margin: 0px;
-  top: 0%;
- 
-  height: 100vh;
-  background-position: left-center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
 }
 .herotxt {
   text-align: right;
