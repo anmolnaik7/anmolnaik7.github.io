@@ -127,8 +127,8 @@ header {
   background-position-y: -10vh;
   background-position-x: right;
   width: fit-content;
-  margin: auto;
   align-items: center;
+  margin: auto;
   display: flex;
   height: 80vh;
   margin-top: 0;
