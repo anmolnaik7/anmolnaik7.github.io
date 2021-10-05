@@ -95,7 +95,7 @@ header {
 
 /*--Header menu--*/
 .hamburgerbtn {
-  float: right;
+  float: right !important;
   background: none;
   border: none;
   font-size: 30px;
