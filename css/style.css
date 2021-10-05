@@ -94,13 +94,22 @@ header {
 /*--logo end--*/
 
 /*--Header menu--*/
-
+.hamburgerbtn {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 30px;
+}
 .menu {
   float: right;
+  display: flex;
+  flex: 0 0 50%;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 .menu a {
   text-decoration: none;
-  color: #fff;
   font-weight: 500;
   text-transform: uppercase;
   padding: 1vw;
@@ -108,7 +117,7 @@ header {
 }
 
 .headerbtn {
-  width: auto;
+  width: fit-content;
   padding: 1vw;
   border-radius: 50px;
   border-style: hidden;
@@ -124,6 +133,19 @@ header {
 }
 .headerbtn a:hover {
   color: #fff;
+}
+
+.offcanvas {
+  width: 100%;
+  background: rgb(00, 00, 00, 0.5);
+}
+.btn-close {
+  color: #ffffff !important;
+  font-size: 30px;
+  top: 10%;
+  right: 10%;
+  position: absolute;
+  background: none;
 }
 /*--Header menu end--*/
 
@@ -141,7 +163,7 @@ header {
   left: auto;
   min-width: 40%;
   padding: 15% 6%;
-  height: 100%;
+
   background-image: url(../img/blob_background.svg);
   background-repeat: no-repeat;
 }
@@ -270,7 +292,6 @@ header {
 .about {
   height: 100vh;
   display: flex;
-
   margin: auto;
   width: fit-content;
   align-items: center;
