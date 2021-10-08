@@ -135,15 +135,17 @@ body {
 
 .offcanvas {
   width: 100%;
-  background: rgb(00, 00, 00, 0.5);
+  background: rgb(00, 00, 00, 0.7);
+  padding-top: 8%;
 }
 .btn-close {
-  color: #ffffff !important;
+  color: black !important;
   font-size: 30px;
-  top: 10%;
-  right: 10%;
+  top: 5%;
+  right: 6%;
   position: absolute;
-  background: none;
+  background: white;
+  border-radius: 50%;
 }
 /*--Header menu end--*/
 
