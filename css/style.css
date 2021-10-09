@@ -90,8 +90,37 @@ body {
   padding-bottom: 2px;
 }
 /*--logo end--*/
+/*--Home Menu--*/
+.menuhome {
+  display: flex;
+  font-size: 20px;
+}
+
+.menuhome a {
+  margin-right: 40px;
+  padding-top: 10px;
+  font-weight: 100;
+  font-variant: small-caps;
+}
+.menuhome .last {
+  margin: 0;
+}
+
+.menuhome .active {
+  border-bottom: 3px solid yellow;
+  padding-bottom: 2px;
+}
+.menuhome a:hover {
+  color: white;
+}
+.menuhome a:hover span,
+.menu a:hover span {
+  border-bottom: 3px solid white;
+  padding-bottom: 2px;
+}
 
 /*--Header menu--*/
+
 .hamburgerbtn {
   float: right;
   background: none;
@@ -161,10 +190,8 @@ body {
 .text {
   align-self: center;
   left: auto;
-  min-width: 40%;
-  padding: 15% 6%;
-
-  background-image: url(../img/blob_background.svg);
+  min-width: 50%;
+  padding: 15% 9%;
   background-repeat: no-repeat;
 }
 
@@ -173,20 +200,24 @@ body {
   flex: 0 0 45%;
 }
 .text h1,
-.text h4 {
+.text p {
   padding: 2px;
   margin: 0px;
 }
 .text h1 {
   font-size: 45px;
   margin: 0px;
-  font-weight: 800;
+  font-weight: 550;
+  text-transform: uppercase;
 }
-.text h4 {
-  font-size: 25px;
+.text p {
+  font-size: 20px;
   font-weight: lighter;
   color: #f8f4f5;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
 }
+
 .hero img {
   max-width: 100%;
   transform: rotate(-45deg);
@@ -197,25 +228,22 @@ body {
   max-width: 50%;
   padding: 5% 10%;
 }
-
-.aboutbtn {
-  background-color: white;
-  color: #100051;
+.homesocial {
   display: flex;
-  align-items: center;
-  padding: 10px 20px;
-  border-radius: 50px;
-  align-content: center;
-  width: fit-content;
-}
-.aboutbtn h5 {
-  color: #100051;
-  margin: 0;
 }
 
-.bi-arrow-down-circle {
-  font-size: 30px;
-  margin-left: 6px;
+.homesocial a {
+  margin-right: 10px;
+  color: #fd297a;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+
+  font-size: 22px;
+}
+.homesocial a:hover {
+  color: #09055e;
+  background-color: antiquewhite;
 }
 
 .animation div {
@@ -297,12 +325,50 @@ body {
   align-items: center;
 }
 
-.aboutme1,
-.aboutme2 {
-  width: 50%;
-  padding: 5% 5%;
+.about1 {
+  padding: 20px 10vw 20px 5vw;
+}
+.about1 h2 {
+  text-align: center;
+  font-weight: Bold;
+}
+.about1 span {
+  padding: 5px 0px;
+  border-bottom: 3px rgb(79, 177, 66) solid;
+}
+.about1 table th {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.about1 table td {
+  padding-bottom: 10px;
+}
+.about1 table i {
+  color: #fd297a;
+}
+.aboutme {
+  margin: auto;
+  align-content: center;
+  display: flex;
+  flex: 0 0 50%;
+  align-items: center;
+  padding-top: 0%;
+}
+.aboutme div {
+  flex: 0 0 45%;
+  align-self: flex-start;
+  left: auto;
+  min-width: 40%;
+  background-repeat: no-repeat;
+}
+.aboutme .aboutimg {
+  max-width: 40%;
+  padding: 0% 10%;
 }
 
+.aboutme .aboutimg img {
+  max-width: 100%;
+}
 /**Mobile View*/
 
 @media screen and (max-width: 900px) {
@@ -319,5 +385,12 @@ body {
   }
   .heroimage {
     max-width: 70%;
+  }
+  .menuhome {
+    width: fit-content;
+    margin: auto;
+  }
+  .menuhome a {
+    margin-right: 25px;
   }
 }
