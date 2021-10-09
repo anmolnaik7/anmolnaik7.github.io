@@ -183,7 +183,7 @@ body {
   align-content: center;
   display: flex;
   flex: 0 0 50%;
-  height: 90vh;
+  height: 100vh;
   align-items: center;
   padding-top: 0%;
 }
@@ -242,7 +242,7 @@ body {
   font-size: 22px;
 }
 .homesocial a:hover {
-  color: #09055e;
+  color: #0b048c;
   background-color: antiquewhite;
 }
 
