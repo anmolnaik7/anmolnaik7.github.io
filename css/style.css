@@ -317,12 +317,11 @@ body {
 }
 
 /**About Section**/
-.about {
+
+.about1 {
   height: 100vh;
-  display: flex;
   margin: auto;
-  width: fit-content;
-  align-items: center;
+  width: 90vw;
 }
 
 .about1 {
