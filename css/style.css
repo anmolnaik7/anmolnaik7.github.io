@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  overflow: hidden;
+}
 
 /*fonts*/
 
@@ -64,7 +67,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   float: left;
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Aquire Bold";
 }
 .logo span:nth-child(even) {
@@ -93,7 +96,6 @@ body {
 /*--Home Menu--*/
 .menuhome {
   display: flex;
-  font-size: 20px;
 }
 
 .menuhome a {
@@ -140,7 +142,6 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   padding: 1vw;
-  font-size: 100%;
 }
 
 .headerbtn {
@@ -205,13 +206,11 @@ body {
   margin: 0px;
 }
 .text h1 {
-  font-size: 45px;
   margin: 0px;
   font-weight: 550;
   text-transform: uppercase;
 }
 .text p {
-  font-size: 20px;
   font-weight: lighter;
   color: #f8f4f5;
   border-bottom: 1px solid white;
@@ -238,8 +237,7 @@ body {
   padding: 5px;
   background-color: white;
   border-radius: 5px;
-
-  font-size: 22px;
+  font-size: 10px;
 }
 .homesocial a:hover {
   color: #0b048c;
