@@ -48,6 +48,27 @@ body {
 }
 
 /*--nav--*/
+.site-btn{
+  font-size: 15px;
+  background-color: #09055e;
+  color: white;
+}
+.site-btn:hover{
+  background-color: white;
+  color: #100051;
+
+}
+.site-counter{
+  position:absolute;
+  bottom: 10;
+  right: 10;
+}
+.site-counter a{
+  display: none !important;
+}
+.dropdown-menu{
+  position: absolute;
+}
 .header {
   position: sticky;
   z-index: 9999999999;
@@ -122,6 +143,7 @@ body {
 }
 
 /*--Header menu--*/
+
 
 .hamburgerbtn {
   float: right;
