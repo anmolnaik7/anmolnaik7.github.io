@@ -136,13 +136,10 @@ body {
 .menuhome a:hover {
   color: white;
 }
-.menuhome a:hover span::after,
-.menu a:hover span::after {
-  content: "";
-  width: 0;
-  height: 2px;
-  background: rgb(255, 255, 255);
-  transition: width .3s;
+.menuhome a:hover span,
+.menu a:hover span {
+  border-bottom: 3px solid white;
+  padding-bottom: 2px;
 }
 
 /*--Header menu--*/
@@ -245,9 +242,9 @@ body {
 .hero img {
   max-width: 100%;
   transform: rotate(-45deg);
+
   box-shadow: 0px 0px 10px white;
 }
-
 .heroimage {
   max-width: 50%;
   padding: 5% 10%;
@@ -269,15 +266,6 @@ body {
   background-color: antiquewhite;
 }
 /*****************************Animations******************************/
-@keyframes menu{
-  0%{
-    transform: translateX(0);
-
-  }
-  100%{
-    transform: translateX(100%);
-  }
-}
 
 .animation div {
   position: fixed;
