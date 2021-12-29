@@ -273,6 +273,7 @@ body {
   height: 50px;
   background-color: transparent;
   border: 5px solid;
+  z-index: -1;
 }
 .animation div:nth-child(even) {
   border-radius: 50%;
@@ -388,6 +389,24 @@ body {
 
 .aboutme .aboutimg img {
   max-width: 100%;
+}
+
+/*Contact Form*/
+.upload-div{
+  border: 1px dashed black;
+  overflow: hidden;
+  max-width: 75%;
+}
+.upload-div p{
+  text-align: center;
+  margin-top: -30;
+  padding: 10px;
+  
+}
+.upload{
+  min-width: 100%;
+  opacity: 0;
+  height: 30px;
 }
 /**Mobile View*/
 
