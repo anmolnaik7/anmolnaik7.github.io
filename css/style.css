@@ -241,7 +241,6 @@ body {
 
 .hero img {
   max-width: 100%;
-  transform: rotate(-45deg);
 
   box-shadow: 0px 0px 10px white;
 }
@@ -370,6 +369,7 @@ body {
 .aboutme {
   margin: auto;
   align-content: center;
+  justify-content: space-between;
   display: flex;
   flex: 0 0 50%;
   align-items: center;
@@ -423,7 +423,7 @@ body {
     width: 300px;
   }
   .heroimage {
-    max-width: 70%;
+    max-width: 80%;
   }
   .menuhome {
     width: fit-content;
