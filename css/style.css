@@ -348,7 +348,7 @@ body {
 .about1 {
   padding: 20px 10vw 20px 5vw;
 }
-.about1 h2 {
+.about1 h2, .contact1 h2 {
   text-align: center;
   font-weight: Bold;
 }
@@ -395,13 +395,12 @@ body {
 .upload-div{
   border: 1px dashed black;
   overflow: hidden;
-  max-width: 75%;
 }
 .upload-div p{
   text-align: center;
   margin-top: -30;
   padding: 10px;
-  
+  color: black;
 }
 .upload{
   min-width: 100%;

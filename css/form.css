@@ -1,17 +1,9 @@
 /* $Id: $ */
 @charset "UTF-8";
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font: inherit;
-	vertical-align: baseline;
-}
+
 
 body {
 	background-attachment: fixed;
-	color: #444444;
-	font: 75%/1.3 Arial, Helvetica, sans-serif;
 	margin: 0 auto;
 }
 
@@ -24,15 +16,7 @@ input, input[type="text"], input[type="search"], isindex, textarea, button {
     box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-img, a {
-	border:0px;
-	outline:none;
-	color:#3a6cae;
-	text-decoration:none;
-}
-img, a:hover {
-	text-decoration:underline;
-}
+
 .zf-flLeft {
 	float:left;
 }
@@ -525,8 +509,12 @@ ol, ul {
 
 .zf-fmFooter {
 	margin:0;
-	padding:25px;
+	padding:5px;
+	width: 100%;
 	text-align:center;
+}
+.zf-fmFooter button{
+	width: 40%;
 }
 
 .zf-fmFooter .zf-submitColor{ font-size:14px; padding:4px 10px;}
@@ -558,7 +546,7 @@ ol, ul {
 	width:50%;
 	}
 .zf-medium .zf-tempContDiv input[type="text"], .zf-medium .zf-tempContDiv textarea, .zf-medium .zf-mSelect select, .zf-medium .zf-tempContDiv .zf-sliderCont, .zf-medium .zf-tempContDiv .zf-pdfTextArea{
-	width:75%;
+	width:100%;
 	}
 .zf-large .zf-tempContDiv input[type="text"], .zf-large .zf-tempContDiv textarea, .zf-large .zf-mSelect select, .zf-large .zf-tempContDiv .zf-sliderCont, .zf-large .zf-tempContDiv .zf-pdfTextArea{
 	width:100%;
@@ -603,7 +591,6 @@ ol, ul {
 
 
 
-.zf-namemedium .zf-nameWrapper{ width: 75%;}
 
 .zf-namemedium .zf-tempContDiv span{width:49%; margin-left:2%;}
 
