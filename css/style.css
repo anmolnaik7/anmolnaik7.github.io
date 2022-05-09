@@ -154,7 +154,6 @@ body {
 .menu {
   float: right;
   display: flex;
-  flex: 0 0 50%;
   flex-direction: column;
   text-align: center;
   align-items: center;
