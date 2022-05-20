@@ -406,12 +406,53 @@ body {
   opacity: 0;
   height: 30px;
 }
-/*  Work section  */
+/*  Total Work   */
+.total-work{
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+.total-work .card{
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+.total-work .card a{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 30px;
+  color: black;
+  min-height: 200px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.total-work .card a:hover{
+  transform: scale(1.08);
+  transition: 0.3s ease-in-out ;
+  background-color: #fd297a;
+  color: white;
+}
+.total-work .card a p{
+  text-align: center;
+  margin: auto;
+}
+/*  Internship section  */
+.internship{
+  max-height: 90%;
+}
 .work{
 position: relative;
 width:90%;
 margin: auto;
-max-height: 90%;
+}
+.internship::-webkit-scrollbar{
+  display: none;
 }
 .work::after{
   content: "";
