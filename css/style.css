@@ -406,6 +406,112 @@ body {
   opacity: 0;
   height: 30px;
 }
+/*  Work section  */
+.work{
+position: relative;
+width:90%;
+margin: auto;
+max-height: 90%;
+}
+.work::after{
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  background-color: white;
+  top: 0%;
+  left: 50%;
+  margin-left: -2;
+}
+.work-card{
+  position: relative;
+  width: 50%;
+  padding:1% 2%;
+}
+.work-card:nth-child(odd)::after{
+  content: "";
+  position: absolute;
+  background-color: #100051;
+  border-radius: 50%;
+  border: 2px white solid;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: -10px;
+  z-index: 1;
+}
+.work-card:nth-child(even)::after{
+  content: "";
+  position: absolute;
+  background-color: #100051;
+  border-radius: 50%;
+  border: 2px white solid;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  left: -10px;
+  z-index: 1;
+}
+.work-card:nth-child(odd) .content::before{
+  content: " ";
+  position: absolute;
+  display: block;
+  border: solid white;
+  border-width: 10px 10px 10px 10px  ;
+  width: 0;
+  height:0;
+  top: 20px;
+  right: -20px;
+  border-color: transparent transparent transparent white;
+}
+.work-card:nth-child(even) .content::before{
+  content: " ";
+  position: absolute;
+  display: block;
+  border: solid white;
+  border-width: 10px 10px 10px 10px  ;
+  width: 0;
+  height:0;
+  top: 20px;
+  left: -20px;
+  border-color: transparent white transparent transparent;
+}
+.work-card:nth-child(even){
+  left: 50%;
+}
+.work-card .content{
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 7px;
+  position: relative;
+}
+.work-card .content .company-info{
+  align-items: flex-start;
+}
+.work-card .logo{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  margin-right: 5px;
+}
+.work-card .profile-info{
+  width: auto;
+}
+.work-card .logo img{
+  width: 100%;
+  max-width: 40px;
+  max-height: 50px;
+  height: fit-content;
+  margin: auto auto;
+}
+.work-card .content .duration{
+  opacity: 0.8;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+
 /**Mobile View*/
 
 @media screen and (max-width: 922px) {
