@@ -426,7 +426,7 @@ max-height: 90%;
 .work-card{
   position: relative;
   width: 50%;
-  padding:1% 2%;
+  padding:10px 2%;
 }
 .work-card:nth-child(odd)::after{
   content: "";
@@ -436,7 +436,7 @@ max-height: 90%;
   border: 2px white solid;
   width: 20px;
   height: 20px;
-  top: 20px;
+  top: 30px;
   right: -10px;
   z-index: 1;
 }
@@ -448,7 +448,7 @@ max-height: 90%;
   border: 2px white solid;
   width: 20px;
   height: 20px;
-  top: 20px;
+  top: 30px;
   left: -10px;
   z-index: 1;
 }
