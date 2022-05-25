@@ -443,14 +443,14 @@ body {
   margin: auto;
 }
 /*  Internship section  */
-.internship{
+.job{
   max-height: 90%;
 }
-.internship h2{
+.job h2{
   text-align: center;
   padding: 10px;
 }
-.internship h2 span {
+.job h2 span {
   padding: 5px 0px;
   border-bottom: 3px rgb(79, 177, 66) solid;
 }
@@ -459,7 +459,7 @@ position: relative;
 width:90%;
 margin: auto;
 }
-.internship::-webkit-scrollbar{
+.job::-webkit-scrollbar{
   display: none;
 }
 .work::after{
