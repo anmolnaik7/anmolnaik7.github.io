@@ -535,6 +535,11 @@ margin: auto;
   border-radius: 7px;
   position: relative;
 }
+.work-card:hover .content{
+  transition: all 0.2s ease-in;
+  box-shadow: 2px 2px 3px wheat;
+  transform: scale(1.01);
+}
 .work-card .content .company-info{
   align-items: flex-start;
 }
